@@ -1,0 +1,16 @@
+{
+  "name": "book-pm-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practical Product Management book companion — the app lives in ./pulse. This root package.json delegates install and build to that subfolder so hosting/deploy platforms that run npm at the repo root succeed.",
+  "scripts": {
+    "install": "cd pulse && npm install",
+    "build": "cd pulse && npm run build",
+    "build:yorku": "cd pulse && npm run build:yorku",
+    "dev": "cd pulse && npm run dev",
+    "dev:yorku": "cd pulse && npm run dev:yorku",
+    "preview": "cd pulse && npm run preview",
+    "preview:yorku": "cd pulse && npm run preview:yorku"
+  },
+  "dependencies": {}
+}
